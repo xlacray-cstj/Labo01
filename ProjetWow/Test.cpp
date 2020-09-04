@@ -1,18 +1,21 @@
-// But : Créer un programme qui affiche un message à l'écran en sauvegardant plusieurs versions de
-//		 ce programme avec git et de l'héberger sur la plateforme GitHub
+// But : CrÃ©er un programme qui affiche un message Ã  l'Ã©cran en sauvegardant plusieurs versions de
+//		 ce programme avec git et de l'hÃ©berger sur la plateforme GitHub
 //
 // Auteur :  Xavier Lacroix-Raymond
 // Date : 4-09-2020
 
-#include <iostream>		// Intègre le coffre à outils pour afficher à l'écran (o out output) (i in input)
+#include <iostream>		// IntÃ¨gre le coffre Ã  outils pour afficher Ã  l'Ã©cran (o out output) (i in input)
 
 
 
-int main(/* liste des paramètres séparés par une virgule le cas échéant */)
+int main(/* liste des paramÃ¨tres sÃ©parÃ©s par une virgule le cas Ã©chÃ©ant */)
 {
 
-	// Affichage du message à l'écran
-	std::cout << "Steak Blé d'Inde Patates";
+	//Pour corriger les caractÃ¨res accentuÃ©s
+	setlocale(LC_ALL, "");
+	
+	// Affichage du message Ã  l'Ã©cran
+	std::cout << "Steak BlÃ© d'Inde Patates";
 
 
 	return 0;
