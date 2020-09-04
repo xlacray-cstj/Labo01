@@ -3,3 +3,12 @@
 //
 // Auteur :  Xavier Lacroix-Raymond
 // Date : 4-09-2020
+
+int main(/* liste des paramètres séparés par une virgule le cas échéant */)
+{
+
+
+
+
+	return 0;
+}
