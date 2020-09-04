@@ -12,7 +12,7 @@ int main(/* liste des paramètres séparés par une virgule le cas échéant */)
 {
 
 	//Pour corriger les caractères accentués
-	setlocale(LC_ALL, "");
+	setlocale(LC_ALL,"");
 	
 	// Affichage du message à l'écran
 	std::cout << "Steak Blé d'Inde Patates";
